@@ -1,0 +1,32 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.top {
+  height: 20dvh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h1 {
+  font-size: 3rem;
+}
+#btn {
+  width: 3rem;
+  aspect-ratio: 1/1;
+  outline: none;
+  border: none;
+  background-color: inherit;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(/assets/refresh.svg);
+}
+section {
+  height: 80dvh;
+  display: flex;
+  flex-wrap: wrap;
+}
